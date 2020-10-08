@@ -1,6 +1,6 @@
 import csv
 
-file = open('wikirank-fr.tsv', 'r', encoding='utf-8')
+file = open('../../../wikirank-fr.tsv', 'r', encoding='utf-8')
 read = csv.reader(file, delimiter="\t")
 map = dict()
 for line in read:
